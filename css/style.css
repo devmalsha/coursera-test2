@@ -1,0 +1,24 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #d3d3d3;
+  font-family: "Oxygen", sans-serif;
+}
+
+/* HEADER */
+#navigationbar {
+  background-color: #666565;
+  border: 3px solid #000;
+  border-radius: 0;
+}
+
+.navbar-brand h1 {
+  font-family: "Lora", serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.7em;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1.5em;
+  border-color: aqua 75px;
+}
