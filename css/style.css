@@ -46,3 +46,18 @@ body {
   padding-right: 10px;
   font-weight: bold;
 }
+/* small devices */
+@media (min-width: 767px) and (max-width: 991px) {
+  .container > div {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+}
+
+/* small devices */
+@media (max-width: 766px) {
+  .container > div {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+}
