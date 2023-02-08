@@ -26,6 +26,12 @@ body {
 /* END HEADER */
 
 /* MENU DESCRIPTION  */
+
+#back-to-top {
+  color: #000;
+  padding-left: 10px;
+}
+
 .header2 {
   font-weight: bolder;
   margin-bottom: 30px;
@@ -34,6 +40,7 @@ body {
 .menu-card {
   background-color: #666565;
   margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .menu-title {
