@@ -54,10 +54,44 @@ body {
   }
 }
 
-/* small devices */
+/* Extra - small devices */
 @media (max-width: 766px) {
   .container > div {
     margin-left: 35px;
     margin-right: 35px;
+  }
+
+  #navbar-list a {
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+    color: #000;
+  }
+
+  #navbar-list a hr {
+    color: 3px solid #000;
+    width: 100%;
+  }
+  #navigationbar {
+    border: 0px;
+  }
+
+  .navbar-header {
+    border: 3px solid #000;
+  }
+
+  #collapsable-navbar {
+    padding-left: 0%;
+    padding-right: 0%;
+    /* border-left: 3px solid #000;
+    border-right: 3px solid #000; */
+  }
+  #list-item1,
+  #list-item3 {
+    border: 3px solid #000;
+  }
+  #list-item2 {
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
   }
 }
