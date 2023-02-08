@@ -27,14 +27,21 @@ body {
 
 /* MENU DESCRIPTION  */
 
+#chicken-section,
+#beef-section,
+#sushi-section {
+  border-right: 15px;
+  border-left: 15px;
+}
+
 #back-to-top {
-  color: #000;
   padding-left: 10px;
 }
 
 .header2 {
   font-weight: bolder;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .menu-card {
@@ -46,11 +53,13 @@ body {
 .menu-title {
   text-align: center;
   font-weight: bolder;
+  padding-top: 15px;
 }
 .menu-description {
-  padding-left: 10px;
+  overflow: auto;
+  padding-left: 15px;
   padding-bottom: 10px;
-  padding-right: 10px;
+  padding-right: 15px;
   font-weight: bold;
 }
 /* small devices */
@@ -67,7 +76,10 @@ body {
     margin-left: 35px;
     margin-right: 35px;
   }
-
+  .extra-padding {
+    padding-left: 35x;
+    padding-right: 35x;
+  }
   #navbar-list a {
     text-align: center;
     font-size: 1.2em;
